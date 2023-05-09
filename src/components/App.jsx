@@ -12,7 +12,6 @@ export class App extends Component {
   state = {
     search: '',
     page: 1,
-    total: 1,
     images: [],
     isLoading: false,
     error: null,
@@ -49,7 +48,7 @@ export class App extends Component {
   };
 
   render() {
-    const { images, isLoading, showModal, modalData, total, page } = this.state;
+    const { images, isLoading, showModal, modalData } = this.state;
     return (
       <Layout>
         <GlobalStyle />
