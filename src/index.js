@@ -8,9 +8,9 @@ const theme = {
   colors: {
     text: '#212121',
     secondaryText: 'gray',
-    white: 'white',
-    backgroundColor: '#2EE59D',
-    secondaryBgcolor: '#eeeeee',
+    white: '#fff',
+    backgroundColor: '#6a6ac3',
+    acentBgcolor: '#303f9f',
     tableHeadColor: '#7189b2',
     message: '#b00a0a',
   },
